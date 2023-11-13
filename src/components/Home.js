@@ -7,6 +7,7 @@ import sofa1 from '../assets/sofa1.jpg'
 import sofa2 from '../assets/sofa2.jpg'
 import sofa3 from '../assets/sofa3.jpg'
 import sofa4 from '../assets/sofa4.jpg'
+import sofa_home from '../assets/sofa_home_page.jpg'
 import 'react-slideshow-image/dist/styles.css'
 const buttonStyle = {
     width: "100px",
@@ -26,7 +27,10 @@ const properties = {
 const Home = () => {
     return (
         <div id="home-page">
-            <p id="intro">Hi, my name is Mario Linares, and I have been doing upholstery for 30 years and specialize in restoration and comercial re-upholstery.</p>
+            <p id="intro">30 years of specialization in restoration and commercial re-upholstery</p>
+            <div id="section-1">
+                <img id="section-1-img" src={sofa_home} />
+            </div>
             <div id="slide-container">
                 <Slide {...properties} id="slideshow" >
                     <div class="img-container" key='1'>

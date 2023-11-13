@@ -9,12 +9,12 @@ export default class Nav extends Component {
     render() {
         return (
             <div id="nav">
-                <ul id="links">
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/Portfolio">Portfolio</Link></li>
-                    <li><Link to="/Services">Services</Link></li>
-                </ul>
                 <h1 id="title">Linares Upholstery</h1>
+                <ul id="links">
+                    <li><Link class="links" to="/">Home</Link></li>
+                    <li><Link class="links" to="/Portfolio">Portfolio</Link></li>
+                    <li><Link class="links" to="/Services">Services</Link></li>
+                </ul>
             </div>
         )
     }

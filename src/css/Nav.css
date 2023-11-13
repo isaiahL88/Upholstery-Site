@@ -1,31 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Tangerine:wght@700&display=swap');
 
 #nav {
-    background: #4e4c57;
+    background: rgba(88, 69, 175, 0);
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 3;
 }
 
 #title {
-    font-size: 150px;
+    font-size: 80px;
     font-family: 'Tangerine', cursive;
     width: 30vw;
+    z-index: 3;
+    margin-left: 20px;
 }
 
 #nav li {
     display: inline-block;
-    margin-right: 200px;
-    font-size: 50px;
+    margin-right: 150px;
     border-radius: 45px;
+    z-index: 3;
+
 }
 
 #nav li a {
     text-decoration: none;
     color: black;
     font-family: 'Lato', sans-serif;
-    font-size: 80px;
-    font-weight: 500;
+    font-size: 30px;
+    font-weight: bold;
+    z-index: 3;
+
+}
+
+#links {
+    z-index: 3;
 }

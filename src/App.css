@@ -32,7 +32,27 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+/* Hide scrollbars */
+body {
+  overflow: hidden;
+}
+
+/* Smooth Scroll */
+[data-scrollbar] {
+  height: 100vh;
+  overflow: hidden;
+
+  .scrollbar-track.scrollbar-track-y {
+    background: rgb(122, 122, 122);
+
+    .scrollbar-thumb-y {
+      background: rgb(52, 52, 52);
+    }
   }
 }
