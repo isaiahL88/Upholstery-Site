@@ -1,0 +1,30 @@
+.slideButtons {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin: 0px;
+    background: none;
+    border: 0px;
+}
+
+.slide-container {
+    width: 30vw;
+    height: 60vh;
+}
+
+.slide-img {
+    width: 30vw;
+    height: 60vh;
+    object-fit: cover;
+}
+
+#slideshow {
+    width: 30vw;
+    height: 60vh;
+}
+
+#section1 {
+    width: 30vw;
+    height: 60vh;
+    margin: 50px;
+}

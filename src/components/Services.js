@@ -12,9 +12,9 @@ export default class Services extends Component {
                 <div class="services">
                     <h1>Residential Furniture</h1>
                     <ul class="service-list">
-                        <li>Upgrade uncomfortable seat foam, you can chose from a variety of foam density to replace in your pieces of furniture.</li>
-                        <li>Change cushion size, which can help with deep chairs that are hard to get out of.</li>
-                        <li>We do business with well established Fabric manufacturers such as Ennis Fabrics which provide a wide selection to choose from. <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link></li>
+                        <li>Upgrade uncomfortable seat foam, you can chose from a variety of foam density to replace in your pieces of furniture</li>
+                        <li>Change cushion size, which can help with deep chairs that are hard to get out of</li>
+                        <li>We do business with well established Fabric manufacturers such as <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link> which provide a wide selection of fabric and vinyl to choose from</li>
                         <li>Finish touch up for aged furniture to make it feel like brand new!</li>
                         <li>We have experience with the following: </li>
                     </ul>
@@ -26,7 +26,6 @@ export default class Services extends Component {
                     <ul class="service-list">
                         <li>We can re-upholster resturant banquets and even upgrade cushion or foam to your desired size or density if needed</li>
                         <li>Upgrade your high use furniture to top knotch fabric that will take on the day-to-day use</li>
-                        <li></li>
                     </ul>
                 </div>
                 <div class="services">

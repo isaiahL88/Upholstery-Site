@@ -4,6 +4,8 @@ import Home from "./Home.js"
 import Services from "./Services.js"
 import "../css/Nav.css"
 import { Link, Routes, Route } from "react-router-dom"
+import { Slide } from 'react-slideshow-image';
+
 
 export default class Nav extends Component {
     render() {

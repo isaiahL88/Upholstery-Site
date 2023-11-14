@@ -1,11 +1,19 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 #services-container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
+.service-list li {
+    font-size: 23px;
+}
+
 .services h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 

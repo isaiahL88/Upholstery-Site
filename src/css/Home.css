@@ -26,12 +26,6 @@ body {
     align-items: center;
 }
 
-#intro {
-    font-size: 50px;
-    font-family: 'Lato', sans-serif;
-    margin-top: 40px;
-    text-align: center;
-}
 
 #section-1 {
     z-index: 1;
@@ -46,6 +40,11 @@ body {
 }
 
 #intro {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
     margin-bottom: -43vh;
     margin-top: 20vh;
     z-index: 2;
@@ -58,4 +57,44 @@ body {
     height: 40vh;
     margin-top: 0px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#section-2-img {
+    width: 98vw;
+    height: 80vh;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#section-2-header {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: -43vh;
+    margin-top: 36vh;
+    z-index: 2;
+    font-weight: bold;
+
+}
+
+#section-3-img {
+    width: 98vw;
+    height: 80vh;
+    object-fit: cover;
+    margin-bottom: 30px;
+    object-position: 10px 35%;
+}
+
+#section-3-header {
+    font-size: 50px;
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: -43vh;
+    margin-top: 36vh;
+    z-index: 2;
+    font-weight: bold;
 }
