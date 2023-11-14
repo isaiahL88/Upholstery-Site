@@ -1,20 +1,59 @@
-.slideButtons {
-    width: 100px;
-    height: 100px;
-    padding: 0px;
-    margin: 0px;
-    background: none;
-    border: 0px;
-}
-
 .slide-img {
     width: 30vw;
-    height: 70vh;
+    height: 50vh;
     object-fit: cover;
+    object-position: 0px 50% !important;
 }
 
+
 #section1 {
-    width: 30vw;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100vw;
     height: 60vh;
-    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.splide {
+    display: inline-block;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+#section2 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #cec399;
+}
+
+@media all and (max-width: 1024px) {
+
+    /* put your css styles in here */
+    #section1 {
+        flex-direction: column;
+        width: 100vw;
+        height: 150vh;
+    }
+
+    .slide-img {
+        width: 80vw;
+        height: 60vh;
+        object-fit: cover;
+        object-position: 0px 50% !important;
+    }
+
+    #section2 {
+        flex-direction: column;
+        width: 100vw;
+        height: 150vh;
+    }
+
+
 }
