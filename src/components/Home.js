@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import "../css/Home.css"
 import { Slide } from 'react-slideshow-image';
 import chair1 from '../assets/Chair.jpg'
@@ -27,6 +27,7 @@ const properties = {
 }
 
 const Home = () => {
+
     return (
         <div id="home-page">
             <p id="intro">30 years of specialization in restoration and commercial re-upholstery</p>

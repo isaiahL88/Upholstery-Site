@@ -1,0 +1,64 @@
+/* Page 1 */
+/* ----------------------------- */
+#about-pic {
+    height: 500px;
+    width: 650px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+#page1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    padding: 20px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-header {
+    text-decoration: underline;
+}
+
+#about-descr {
+    width: 600px;
+}
+
+#google-map {
+    width: 550px;
+    height: 550px;
+    margin: 20px;
+    border: 0
+}
+
+#contact-header {
+    text-decoration: underline;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#message-popup {
+    position: absolute;
+    right: -75px;
+    z-index: 50;
+    top: 120px;
+}
+
+#message-div {
+    z-index: 50;
+}
+
+#popup-text {
+    font-family: 'Inter', sans-serif;
+}
+
+/* ----------------------------- */
