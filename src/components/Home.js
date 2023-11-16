@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "../css/Home.css"
-import { Slide } from 'react-slideshow-image';
+import { Splide, SplideSlide } from '@splidejs/react-splide'
+
 import chair1 from '../assets/Chair.jpg'
 import chair2 from '../assets/chair2.jpg'
 import sofa1 from '../assets/sofa1.jpg'
@@ -11,36 +12,42 @@ import sofa_home from '../assets/sofa_home_page.jpg'
 import sofaModern from '../assets/modern_sofa.jpg'
 
 import 'react-slideshow-image/dist/styles.css'
-const buttonStyle = {
-    width: "100px",
-    height: "100px",
-    padding: "0px",
-    margin: "0px",
 
-    background: 'none',
-    border: '0px',
+const options = {
+    type: 'loop',
+    width: '100vw',
+    height: '30em',
+    gap: '1rem',
+    interval: 4000,
+    speed: 30,
+    autoplay: "play"
 };
 
-const properties = {
-    prevArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z" /></svg></button>,
-    nextArrow: <button style={{ ...buttonStyle }}><svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 -960 960 960" width="100"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" /></svg></button>
-}
-
+const optionsMobile = {
+    type: 'loop',
+    width: '80vw',
+    height: '60vh',
+    gap: '1rem'
+};
 const Home = () => {
 
     return (
         <div id="home-page">
-            <p id="intro">30 years of specialization in restoration and commercial re-upholstery</p>
             <div id="section-1">
-                <img id="section-1-img" src={sofa_home} />
-            </div>
-            <h1 id="section-2-header">Make a worthwhile investment restoring and preserving your sentimental pieces of furniture</h1>
-            <div id="section-2">
-                <img id="section-2-img" src={sofaModern} />
-            </div>
-            <h1 id="section-3-header">Refresh your restaurant or lounge banquets with a new high quality fabric!</h1>
-            <div id="section-3">
-                <img id='section-3-img' src={sofa2} />
+                <Splide id='splide' options={options}>
+                    <SplideSlide>
+                        {/* <p id="intro">30 years of specialization in restoration and commercial re-upholstery</p> */}
+                        <img id="section-1-img" src={sofa_home} />
+                    </SplideSlide>
+                    <SplideSlide>
+                        {/* <h1 id="section-2-header">Make a worthwhile investment restoring and preserving your sentimental pieces of furniture</h1> */}
+                        <img id="section-2-img" src={sofaModern} />
+                    </SplideSlide>
+                    <SplideSlide>
+                        {/* <h1 id="section-3-header">Refresh your restaurant or lounge banquets with a new high quality fabric!</h1> */}
+                        <img id='section-3-img' src={sofa2} />
+                    </SplideSlide>
+                </Splide>
             </div>
         </div >
     )

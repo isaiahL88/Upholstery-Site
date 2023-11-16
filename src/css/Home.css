@@ -32,8 +32,9 @@ body {
 }
 
 #section-1-img {
-    width: 98vw;
-    height: 60vh;
+    width: 100vw;
+    height: 65vh;
+    object-position: 0 -220px;
     object-fit: cover;
     margin-bottom: 30px;
 
