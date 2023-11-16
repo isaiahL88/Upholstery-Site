@@ -9,7 +9,7 @@ body {
 }
 
 .service-list li {
-    font-size: 23px;
+    font-size: 20px;
 }
 
 .services h1 {
@@ -18,7 +18,7 @@ body {
 
 
 .services-right {
-    background-color: #cec399;
+    background: #b1b19f;
 }
 
 .services {
@@ -29,7 +29,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 #rightHeader {
@@ -44,4 +43,35 @@ body {
 
 .service-list {
     width: 600px
+}
+
+@media all and (max-width: 1024px) {
+    .service-list li {
+        font-size: 10px;
+    }
+
+    .services h1 {
+        font-size: 20px;
+    }
+
+    .services {
+        display: flex;
+        padding: 30px;
+        width: 100vw;
+        height: 50vh;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .services-info {
+        width: 10em;
+    }
+
+    .service-img {
+        object-fit: cover;
+        width: 10em;
+        height: 10em;
+    }
+
 }

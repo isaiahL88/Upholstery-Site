@@ -10,14 +10,16 @@ export default class Services extends Component {
         return (
             <div id="services-container">
                 <div class="services">
-                    <h1>Residential Furniture</h1>
-                    <ul class="service-list">
-                        <li>Upgrade uncomfortable seat foam, you can chose from a variety of foam density to replace in your pieces of furniture</li>
-                        <li>Change cushion size, which can help with deep chairs that are hard to get out of</li>
-                        <li>We do business with well established Fabric manufacturers such as <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link> which provide a wide selection of fabric and vinyl to choose from</li>
-                        <li>Finish touch up for aged furniture to make it feel like brand new!</li>
-                        <li>We have experience with the following: </li>
-                    </ul>
+                    <div class='services-info'>
+                        <h1>Residential Furniture</h1>
+                        <ul class="service-list">
+                            <li>Upgrade uncomfortable seat foam, you can chose from a variety of foam density to replace in your pieces of furniture</li>
+                            <li>Change cushion size, which can help with deep chairs that are hard to get out of</li>
+                            <li>We do business with well established Fabric manufacturers such as <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link> which provide a wide selection of fabric and vinyl to choose from</li>
+                            <li>Finish touch up for aged furniture to make it feel like brand new!</li>
+                            <li>We have experience with the following: </li>
+                        </ul>
+                    </div>
                     <img class="service-img" src={resBanquet} />
                 </div>
                 <div class="services services-right">

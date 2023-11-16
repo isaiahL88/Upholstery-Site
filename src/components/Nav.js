@@ -1,5 +1,6 @@
 import React, { useState, useEffect, Component } from 'react';
 import Home from "./Home.js"
+import logo from '../assets/Linares Upholstery-logos.png'
 import Services from "./Services.js"
 import About from "./About.js"
 import "../css/Nav.css"
@@ -17,16 +18,34 @@ export default class Nav extends Component {
 
     }
     handleBurger = () => {
+        const nav = document.querySelector(".nav-links");
+
+        const navLinks = document.querySelectorAll(".nav-links li");
+
         this.setState((prevState) => ({
             burgerOpen: !prevState.burgerOpen
         }));
+
+        nav.classList.toggle('nav-active');
+
+        //Animate Links
+        navLinks.forEach((link, index) => {
+            if (link.style.animation) {
+                link.style.animation = '';
+            } else {
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 5 + 0.6}s`;
+            }
+        });
 
     }
     render() {
         return (
             <div id="nav">
-                <h1 id="title">Linares Upholstery</h1>
-                <ul className={this.state.burgerOpen ? "nav-active nav-links" : "nav-links"}>
+                <div id='logo-box'>
+                    <img id='nav-logo' src={logo} />
+                    <p id='slogan'>Scarborough based Upholstery</p>
+                </div>
+                <ul className={this.state.burgerOpen ? "nav-links" : "nav-links"}>
                     <li><Link class="links" to="/">Home</Link></li>
                     <li><Link class="links" to="/Services">Services</Link></li>
                     <li><Link class="links" to="/Portfolio">Portfolio</Link></li>
