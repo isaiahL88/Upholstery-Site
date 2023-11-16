@@ -17,7 +17,9 @@ export default class Nav extends Component {
 
     }
     handleBurger = () => {
-        console.log("click");
+        this.setState((prevState) => ({
+            burgerOpen: !prevState.burgerOpen
+        }));
 
     }
     render() {
@@ -33,10 +35,10 @@ export default class Nav extends Component {
                 {/* onClick={this.setState(prevState => ({
                     burgerOpen: !prevState.burgerOpen
                 }))} */}
-                <div className="burger" onClick={this.handleBurger}>
-                    <div class={this.state.burgerOpen ? "line1 toggle" : "line1"}></div>
-                    <div class={this.state.burgerOpen ? "line2 toggle" : "line2"}></div>
-                    <div class={this.state.burgerOpen ? "line3 toggle" : "line3"}></div>
+                <div className={this.state.burgerOpen ? "burger toggle" : "burger"} onClick={this.handleBurger}>
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
                 </div>
             </div >
         )

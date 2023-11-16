@@ -20,13 +20,11 @@ const About = () => {
                         for an estimate as well.</p>
                 </div>
                 <div id="contact">
-                    <div id='message-div'>
-                        <svg id="message-popup" width="606" height="270" xmlns="http://www.w3.org/2000/svg">
-                            <ellipse cx="302.5" cy="125.5" rx="214.5" ry="72.5" fill="#CCC5A0" />
-                            <path d="M539.904 206.859L391.076 188.256L496.822 148.601L539.904 206.859Z" fill="#CCC5A0" stroke="#CCC5A0" />
-                            <text fontFamily="Inter" id="popup-text" x="50%" y="45%" fontSize="18px" alignment-baseline="middle" text-anchor="middle">Please call or email to arrange an estimate!</text>
-                        </svg>
-                    </div>
+                    <svg id="message-popup" width="606" height="270" viewBox="10 20 10" xmlns="http://www.w3.org/2000/svg">
+                        <ellipse cx="302.5" cy="125.5" rx="214.5" ry="72.5" fill="#CCC5A0" />
+                        <path d="M539.904 206.859L391.076 188.256L496.822 148.601L539.904 206.859Z" fill="#CCC5A0" stroke="#CCC5A0" />
+                        <text fontFamily="Inter" id="popup-text" x="50%" y="45%" fontSize="18px" alignment-baseline="middle" text-anchor="middle">Please call or email to arrange an estimate!</text>
+                    </svg>
                     <h1 id='contact-header'>Contact Information</h1>
                     <p>cell: 416-871-7564</p>
                     <p>email: linaresupholstery@hotmail.ca</p>
@@ -34,6 +32,7 @@ const About = () => {
                 </div>
             </div>
             <div id="page 2">
+
             </div>
         </div >
     )

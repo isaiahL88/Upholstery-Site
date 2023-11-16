@@ -54,7 +54,7 @@
 }
 
 #message-div {
-    z-index: 50;
+    z-index: 10;
 }
 
 #popup-text {
@@ -62,3 +62,46 @@
 }
 
 /* ----------------------------- */
+
+/* MOBILE */
+/* ------------------------------------------------------------- */
+
+@media all and (max-width: 1024px) {
+    #page1 {
+        flex-direction: column;
+
+    }
+
+    #message-popup {
+        position: relative;
+        right: auto;
+        top: auto;
+        height: 200px;
+        width: 200px;
+        object-fit: cover;
+        display: none;
+    }
+
+    #about-pic {
+        height: 25em;
+        width: 20em;
+        object-fit: cover;
+        object-position: 70% 50%;
+        margin-bottom: 20px;
+
+    }
+
+    #about-descr {
+        width: 350px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        padding: 10px;
+        ;
+    }
+
+    #google-map {
+        width: 20em;
+        height: 25em;
+        margin: 10px;
+        border: 0;
+    }
+}

@@ -81,14 +81,31 @@
 }
 
 @media all and (max-width: 1024px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #nav {
+        margin: 10px;
+        justify-content: center;
+        height: 55px;
+    }
+
+    #title {
+        font-size: 40px;
+        width: 400px;
+        text-align: center;
+    }
+
     .nav-links {
         position: absolute;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
-        background-color: #5d4955;
+        height: 50vh;
+        top: 55px;
+        background-color: #cec399;
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
         align-items: center;
         width: 50%;
         transform: translateX(100%);
@@ -96,18 +113,19 @@
         z-index: 50;
     }
 
-    .nav-links li {
-        opacity: 0;
-    }
+
 
     .burger {
         display: block;
         cursor: pointer;
+        position: absolute;
+        right: 10px;
     }
 
     .nav-active {
         transform: translateX(0%);
     }
+
 
     .links {}
 }
