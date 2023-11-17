@@ -22,7 +22,7 @@ const options = {
     gap: '1rem',
     interval: 4000,
     speed: 30,
-    autoplay: "pause"
+    autoplay: "play"
 };
 
 const optionsMobile = {

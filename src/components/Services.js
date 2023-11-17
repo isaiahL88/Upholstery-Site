@@ -9,10 +9,10 @@ export default class Services extends Component {
     render() {
         return (
             <div id="services-container">
-                <div class="services">
-                    <div class='services-info'>
+                <div id="res-service" class="services">
+                    <div id="services-info-res" class='services-info'>
                         <h1>Residential Furniture</h1>
-                        <ul class="service-list">
+                        <ul id="list-res" class="service-list">
                             <li>Upgrade uncomfortable seat foam, you can chose from a variety of foam density to replace in your pieces of furniture</li>
                             <li>Change cushion size, which can help with deep chairs that are hard to get out of</li>
                             <li>We do business with well established Fabric manufacturers such as <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link> which provide a wide selection of fabric and vinyl to choose from</li>
@@ -20,19 +20,21 @@ export default class Services extends Component {
                             <li>We have experience with the following: </li>
                         </ul>
                     </div>
-                    <img class="service-img" src={resBanquet} />
+                    <img id="res-service-img" class="service-img" src={resBanquet} />
                 </div>
-                <div class="services services-right">
-                    <h1 id="rightHeader">Commercial Upholstery</h1>
-                    <img class="service-img" src={sofa4} />
-                    <ul class="service-list">
-                        <li>We can re-upholster resturant banquets and even upgrade cushion or foam to your desired size or density if needed</li>
-                        <li>Upgrade your high use furniture to top knotch fabric that will take on the day-to-day use</li>
-                    </ul>
+                <div id="service-comercial" class="services services-right">
+                    <img id="service-img-comercial" class="service-img" src={sofa4} />
+                    <div id="service-info-comercial" className='services-info'>
+                        <h1 id="rightHeader">Commercial Upholstery</h1>
+                        <ul id="service-list-comercial" class="service-list">
+                            <li>We can re-upholster resturant banquets and even upgrade cushion or foam to your desired size or density if needed</li>
+                            <li>Upgrade your high use furniture to top knotch fabric that will take on the day-to-day use</li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="services">
+                <div id="services-custom" class="services">
                     <h1>Custom Upholstery</h1>
-                    <ul class="service-list">
+                    <ul id="list-custom" class="service-list">
                         <li>Through years of experience we have learned how to work on a variety of both modern and antique pieces</li>
                         <li>We offer re-upholstery for the following:</li>
                         <ul>
@@ -42,7 +44,7 @@ export default class Services extends Component {
                             <li>Boat / Car Re-upholstery</li>
                         </ul>
                     </ul>
-                    <img class="service-img" src={antique} />
+                    <img id="custom-img" class="service-img" src={antique} />
                 </div>
             </div >
         )

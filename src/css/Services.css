@@ -45,6 +45,21 @@ body {
     width: 600px
 }
 
+#services-info-res {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70em;
+}
+
+#service-info-comercial {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70em;
+
+}
+
 @media all and (max-width: 1024px) {
     .service-list li {
         font-size: 10px;
@@ -54,24 +69,69 @@ body {
         font-size: 20px;
     }
 
-    .services {
-        display: flex;
-        padding: 30px;
-        width: 100vw;
-        height: 50vh;
-        display: flex;
-        justify-content: space-between;
 
+    #res-service-img {
+        height: 8em;
+        width: 16em;
     }
 
-    .services-info {
-        width: 10em;
+    #res-service {
+        flex-direction: column;
     }
 
-    .service-img {
-        object-fit: cover;
+    #services-info-res {
+        width: 100%;
+        display: block;
+    }
+
+    #list-res {
+        width: 20em;
+    }
+
+    #service-img-comercial {
         width: 10em;
+        height: 20em;
+        order: 1;
+    }
+
+    #service-comercial {
+        display: flex;
+        flex-direction: row !important;
+        height: 25em;
+    }
+
+    #service-info-comercial {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        width: 10em;
+        order: 2;
+    }
+
+    #service-list-comercial {
+        width: 10em;
+        order: 2;
+    }
+
+    #rightHeader {
+        order: 1;
+    }
+
+    #custom-img {
+        width: 20em;
         height: 10em;
     }
+
+    #services-custom {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #list-custom {
+        width: 20em;
+    }
+
 
 }

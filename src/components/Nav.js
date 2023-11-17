@@ -46,10 +46,10 @@ export default class Nav extends Component {
                     <p id='slogan'>Scarborough based Upholstery</p>
                 </div>
                 <ul className={this.state.burgerOpen ? "nav-links" : "nav-links"}>
-                    <li><Link class="links" to="/">Home</Link></li>
-                    <li><Link class="links" to="/Services">Services</Link></li>
-                    <li><Link class="links" to="/Portfolio">Portfolio</Link></li>
-                    <li><Link class="links" to="/About">About</Link></li>
+                    <li><Link onClick={this.handleBurger} class="links" to="/">Home</Link></li>
+                    <li><Link onClick={this.handleBurger} class="links" to="/Services">Services</Link></li>
+                    <li><Link onClick={this.handleBurger} class="links" to="/Portfolio">Portfolio</Link></li>
+                    <li><Link onClick={this.handleBurger} class="links" to="/About">About</Link></li>
                 </ul>
                 {/* onClick={this.setState(prevState => ({
                     burgerOpen: !prevState.burgerOpen
