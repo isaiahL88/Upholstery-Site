@@ -53,6 +53,11 @@ body {
   overflow: hidden;
 }
 
+#root {
+  overflow-x: hidden !important;
+  position: relative !important;
+}
+
 html,
 body {
   overflow-x: hidden !important;
