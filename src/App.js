@@ -6,12 +6,12 @@ import Services from "./components/Services"
 import About from "./components/About"
 import Footer from "./components/Footer"
 import { Route, Link, Routes } from "react-router-dom"
-import SmoothScrollbar from './components/SmoothScrollBar';
+import { Scrollbar } from 'smooth-scrollbar-react';
 
 function App() {
   return (
     <>
-      <SmoothScrollbar>
+      <Scrollbar>
         <Nav />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/about" element={<About />} />
         </Routes>
         <Footer />
-      </SmoothScrollbar>
+      </Scrollbar>
     </>
   );
 }

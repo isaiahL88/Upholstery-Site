@@ -13,7 +13,6 @@ import sofaModern from '../assets/modern_sofa.jpg'
 import fabric from '../assets/fabric.jpeg'
 import sowing from '../assets/sowing.jpeg'
 
-import 'react-slideshow-image/dist/styles.css'
 
 const options = {
     type: 'loop',

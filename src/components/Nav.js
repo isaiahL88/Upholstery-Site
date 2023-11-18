@@ -5,7 +5,6 @@ import Services from "./Services.js"
 import About from "./About.js"
 import "../css/Nav.css"
 import { Link, Routes, Route } from "react-router-dom"
-import { Slide } from 'react-slideshow-image';
 
 export default class Nav extends Component {
 

@@ -101,8 +101,14 @@
 }
 
 @media all and (max-width: 1024px) {
+
+    html,
     body {
-        overflow-x: hidden;
+        overflow-x: hidden !important;
+    }
+
+    body {
+        position: relative !important;
 
     }
 
