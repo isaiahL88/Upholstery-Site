@@ -129,14 +129,13 @@
         height: 50vh;
         top: 55px;
         background: #b1b19f;
-        display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
         width: 50%;
-        transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: display 0.5s ease-in;
         z-index: 100;
+        display: none;
     }
 
     .nav-links li {
@@ -146,7 +145,7 @@
     }
 
     .nav-active {
-        transform: translateX(0%);
+        display: flex;
         transform: translateY(100em);
         height: 40em !important;
     }
