@@ -55,8 +55,8 @@ body {
 
 #root {
   overflow-x: hidden !important;
-  position: relative !important;
-  width: 100vw !important;
+  position: absolute !important;
+
 }
 
 html,
