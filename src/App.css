@@ -65,16 +65,19 @@ body {
   position: relative !important;
 }
 
-/* Smooth Scroll */
-[data-scrollbar] {
-  height: 100vh;
-  overflow: hidden;
+@media all and (min-width: 1024px) {
 
-  .scrollbar-track.scrollbar-track-y {
-    background: rgb(122, 122, 122);
+  /* Smooth Scroll */
+  [data-scrollbar] {
+    height: 100vh;
+    overflow: hidden;
 
-    .scrollbar-thumb-y {
-      background: rgb(52, 52, 52);
+    .scrollbar-track.scrollbar-track-y {
+      background: rgb(122, 122, 122);
+
+      .scrollbar-thumb-y {
+        background: rgb(52, 52, 52);
+      }
     }
   }
 }
