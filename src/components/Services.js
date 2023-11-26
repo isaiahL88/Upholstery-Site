@@ -13,11 +13,10 @@ export default class Services extends Component {
                     <div id="services-info-res" class='services-info'>
                         <h1>Residential Furniture</h1>
                         <ul id="list-res" class="service-list">
-                            <li>Upgrade uncomfortable seat foam, you can chose from a variety of foam density to replace in your pieces of furniture</li>
-                            <li>Change cushion size, which can help with deep chairs that are hard to get out of</li>
-                            <li>We do business with well established Fabric manufacturers such as <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link> which provide a wide selection of fabric and vinyl to choose from</li>
-                            <li>Finish touch up for aged furniture to make it feel like brand new!</li>
-                            <li>We have experience with the following: </li>
+                            <li>Upgrade uncomfortable seats with foam of your preferred density</li>
+                            <li>Change cushion size, which can help with deep chairs that are hard too get out of</li>
+                            <li>We do business with well established fabric manufacturers such as <Link to="https://ennisfabrics.com/">Ennis Fabrics</Link> which provide a wide selection of high quality fabric and vinyl to choose from</li>
+                            <li>Finish touch-up for aged furniture to make it feel like brand new!</li>
                         </ul>
                     </div>
                     <img id="res-service-img" class="service-img" src={resBanquet} />
@@ -27,8 +26,8 @@ export default class Services extends Component {
                     <div id="service-info-comercial" className='services-info'>
                         <h1 id="rightHeader">Commercial Upholstery</h1>
                         <ul id="service-list-comercial" class="service-list">
-                            <li>We can re-upholster resturant banquets and even upgrade cushion or foam to your desired size or density if needed</li>
-                            <li>Upgrade your high use furniture to top knotch fabric that will take on the day-to-day use</li>
+                            <li>We can re-upholster restaurant banquets and even upgrade cushion and foam to your desired size / density if needed</li>
+                            <li>Upgrade your high-use furniture to top notch fabric that will take on the day-to-day use</li>
                         </ul>
                     </div>
                 </div>

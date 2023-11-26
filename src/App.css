@@ -53,16 +53,9 @@ body {
   overflow: hidden;
 }
 
-#root {
-  overflow-x: hidden !important;
-  position: absolute !important;
-
-}
-
 html,
 body {
   overflow-x: hidden !important;
-  position: relative !important;
 }
 
 @media all and (min-width: 1024px) {

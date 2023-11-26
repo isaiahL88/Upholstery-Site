@@ -67,7 +67,7 @@ const Home = () => {
                 <img id='img-3' src={sowing} />
                 <section id='descr-3'>
                     <h1 className='section-header'>Sewing</h1>
-                    <p className='section-p'>Custom sewing allows us to adjust cushion, backing, and fabric lining to perfelctly fit your needs</p>
+                    <p className='section-p'>Custom sewing allows us to adjust cushion, backing, and fabric lining to perfectly fit your needs</p>
                 </section>
             </div>
         </div >

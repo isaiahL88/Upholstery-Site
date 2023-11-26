@@ -9,9 +9,9 @@ const About = () => {
                     <h1 id='about-header'>About</h1>
                     <img id='about-pic' src={aboutPic} />
                     <p id='about-descr'>Hi, my name is Mario and Linares Upholstery is my
-                        family business based in the Scarborough area that I have been
-                        running for 30 years now. I specialize in re-upholstery
-                        and have experience with a wide variety of residential furniture,
+                        family business based in the Scarborough area I have been
+                        running for 30 years. I specialize in re-upholstery
+                        and have experience with various residential furniture,
                         fabrics, commercial furniture, and antique pieces. If you or your
                         business is in need of an upgrade from old worn fabric and
                         damp cushions please give me a call so we can arrange an estimate.
