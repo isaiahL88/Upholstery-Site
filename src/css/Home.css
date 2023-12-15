@@ -163,6 +163,20 @@ body {
     height: 15vh;
 }
 
+@media all and (max-width:1600px) and (min-width:1024px) {
+    #img-2 {
+        width: 40em;
+        height: 30em;
+    }
+
+
+    #img-3 {
+        width: 40em;
+        height: 30em;
+        object-fit: cover;
+    }
+}
+
 @media all and (max-width: 1024px) {
     #intro {
         width: 300px;

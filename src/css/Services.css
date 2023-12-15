@@ -60,6 +60,24 @@ body {
 
 }
 
+@media all and (max-width:1600px) and (min-width:1024px) {
+    .service-img {
+        object-fit: cover;
+        width: 25em;
+        height: 20em;
+    }
+
+    #services-info-res {
+        width: 50em;
+    }
+
+    #service-info-comercial {
+        width: 50em;
+
+    }
+
+}
+
 @media all and (max-width: 1024px) {
     .service-list li {
         font-size: 10px;

@@ -67,6 +67,29 @@ body {
 }
 
 /* ----------------------------- */
+@media all and (max-width:1600px) and (min-width:1024px) {
+    #about-pic {
+        height: 30em;
+        width: 30em;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+
+    #about-descr {
+        width: 30em;
+    }
+
+    #google-map {
+        width: 30em;
+        height: 30em;
+        margin: 20px;
+        border: 0
+    }
+
+    #message-popup {
+        display: none;
+    }
+}
 
 /* MOBILE */
 /* ------------------------------------------------------------- */
